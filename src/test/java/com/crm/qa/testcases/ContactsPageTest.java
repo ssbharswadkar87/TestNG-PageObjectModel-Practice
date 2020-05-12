@@ -1,5 +1,5 @@
 /*
-author is Shantnu Bharswadkar
+This is a practice code for Page Object Model (Test Automation)
 */
 
 package com.crm.qa.testcases;
