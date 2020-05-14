@@ -6,10 +6,27 @@
       <class name="com.crm.qa.testcases.ContactsPageTest">
         <methods>
           <include name="setUP"/>
-          <include name="createNewContactFromExcelTestData" invocation-numbers="0"/>
+          <include name="createNewContactFromExcelTestData"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setUP"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyCorrectUserNameTest"/>
+          <include name="verifyDealsLinkTest"/>
+          <include name="verifyTitleOfHomePageTest"/>
+          <include name="verifyContactsLinkTest"/>
+          <include name="setUP"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
